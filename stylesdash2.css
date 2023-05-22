@@ -1,3 +1,6 @@
+body {
+  background-color: #DADADA;
+}
 header {
     position: absolute;
     width: 1920px;
@@ -13,6 +16,7 @@ button {
 .botao{
     display: flex;
     flex-direction: column;
+    
 }
 
 #perg {
@@ -37,7 +41,7 @@ button {
     /* identical to box height */
 
 
-    color: #DADADA;
+    color: #ebebeb;
 }
 
 
@@ -80,7 +84,7 @@ ul {
 }
 
 li {
-    
+    text-align: center;
     padding: 20px;
 }
 
@@ -99,7 +103,7 @@ table {
   }
 
 td {
-    border: 1px solid black;
+    
   padding:65px;
   
 }
@@ -114,4 +118,25 @@ td.outro {
     
   }
 
+textarea {
+  width: 300px;
+  height: 50px;
   
+}
+
+#tituloperg {
+  text-align: center;
+  padding: 20px;
+}
+#tituloperg2 {
+  padding: 30px;
+}
+
+.nav {
+  height: 120px;
+  width: 170px;
+  background-color: #A5A5A5;
+  border-radius: 25px;
+  margin-left: -15px;
+}
+
