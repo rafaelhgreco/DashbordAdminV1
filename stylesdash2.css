@@ -1,0 +1,117 @@
+header {
+    position: absolute;
+    width: 1920px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+
+    background: #300006;
+} 
+button {
+    margin-top: 10px;
+}
+.botao{
+    display: flex;
+    flex-direction: column;
+}
+
+#perg {
+    top: 200px;
+    position: absolute;
+    width: 50%;
+    margin-left: 8px;
+}
+
+#painel {
+    position: absolute;
+    width: 98px;
+    height: 37px;
+    left: 50px;
+    top: -15px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+
+
+    color: #DADADA;
+}
+
+
+.menu-link {
+    text-decoration: none;
+    color: #ebebeb;
+    padding: 30px;
+    position: relative;
+    left: 400px;
+    top: 40px;       
+  }
+  
+  .menu-link:hover {
+    background-color: #c4c4c4;
+  }
+  
+  .menu-text {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .menu-text::after {
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+  }
+
+#voltar {
+    position: relative;
+    left: 1200px;
+}
+
+ul {
+    position: relative;
+    top:200px;
+    left:100px;
+    list-style: none;
+    background-color: #c4c4c4;
+    width: 11%;
+}
+
+li {
+    
+    padding: 20px;
+}
+
+.table-container {
+    height: 100vh;
+  }
+#te {
+  width: 500px;
+}
+
+table {
+    position:relative;
+    left:450px;
+    top: 50px;
+    border: 1px solid black;
+  }
+
+td {
+    border: 1px solid black;
+  padding:65px;
+  
+}
+
+
+
+td.outro {
+    background-color: #c4c4c4; /* Cor de fundo desejada */
+    padding: 20px; /* Espaçamento interno */
+    width: 250px;
+    border-radius: 15px;
+    
+  }
+
+  

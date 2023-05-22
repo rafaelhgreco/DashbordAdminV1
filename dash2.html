@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Perguntas</title>
+    <link rel="stylesheet" href="stylesdash2.css" >
+    <link rel="stylesheet" href="mediadash2.css" >
+</head>
+<body>
+    <header>
+        <p id="painel">Painel Administrativo</p>
+        <a href="#" class="menu-link">
+            <span class="menu-text">Início  </span>
+          </a>
+          <a href="#" class="menu-link">
+            <span class="menu-text">Perguntas  </span>
+          </a>
+          <a href="#" class="menu-link">
+            <span class="menu-text">Cadastro  </span>
+          </a>
+          <a href="#" class="menu-link">
+            <span class="menu-text">Equipe  </span>
+            </a>
+            
+        </a>
+        <a href="#" id="voltar" class="menu-link">
+            <span class="menu-text">Voltar  </span>
+        </a>
+    </header>
+
+    <ul>
+        <li>Nome da conta</li>
+        <li><div class="menu-divider"></div></li>
+        <li><a href="#config-da-conta">Config da conta</a></li>
+        <li><div class="menu-divider"></div></li>
+        <li>Total de perguntas</li>
+        <li><div class="menu-divider"></div></li>
+        <li>Perguntas em aberto</li>
+        <li><div class="menu-divider"></div></li>
+        <li>Perguntas respondidas</li>
+        <li><img id="fatec" src="FATEC.png"></li>
+      </ul>
+
+      <table id="perg">
+        <tr>
+          <th colspan="3">Adicionar uma pergunta</th>
+        </tr>
+        <tr>
+          <th>Título da pergunta</th>
+          <th>Resposta</th>
+        </tr>
+        <tr>
+          <td>Exemplo de pergunta 1</td>
+          <td>Resposta 1</td>
+          <td class="botao">
+            <button>Adicionar</button>
+            <button>Limpar</button>
+          </td>
+        </tr>
+        
+        <tr>
+          <td>Exemplo de pergunta 2</td>
+          <td>Resposta 2</td>
+          <td class="botao">
+            <button>Adicionar</button>
+            <button>Limpar</button>
+          </td>
+        </tr>
+       
+      </table>
+      
+
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Admin</th>
+              <th>Pergunta</th>
+              <th>Data criação</th>
+              <th>Data edição</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody class="tbody2">
+            <!-- Aqui você pode adicionar as linhas de dados -->
+            <tr>
+              <td>1</td>
+              <td>John Doe</td>
+              <td class="outro">Exemplo de pergunta</td>
+              <td>2023-05-01</td>
+              <td>2023-05-10</td>
+              <td>
+                <!-- Aqui você pode adicionar botões ou links para ações -->
+                <button>Editar</button>
+                <button>Excluir</button>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Jane Smith</td>
+              <td class="outro">Outra pergunta</td>
+              <td>2023-05-05</td>
+              <td>2023-05-15</td>
+              <td>
+                <!-- Aqui você pode adicionar botões ou links para ações -->
+                <button>Editar</button>
+                <button>Excluir</button>
+              </td>
+            </tr>
+            <!-- Adicione mais linhas conforme necessário -->
+          </tbody>
+        </table>
+      </div>
+    
+</body>
+</html>

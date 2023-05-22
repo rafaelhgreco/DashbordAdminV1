@@ -1,0 +1,16 @@
+@media screen and (max-width: 1600px) { 
+    body{
+        background-color: #ebebeb;
+    }
+    .table-container{
+        width: 60%;
+    }
+    td {
+        padding: 50px;
+    }
+    #voltar {
+        position: relative;
+        left: 850px;
+    }
+
+}
